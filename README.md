@@ -1,7 +1,7 @@
 GSJDataEncryptor
 ================
 
-GSJDataEncryptor is a data encryption framework. The project compiles to create a GSJDataEncryptor.framework which can be included in iOS projects. 
+GSJDataEncryptor is a data encryption framework. The project compiles to create a GSJDataEncryptor.framework which can be included in iOS projects.
 
 The features of this project are:
 
@@ -21,7 +21,7 @@ The features of this project are:
 
 
 How to use
-================
+==========
 Link your target with Security.framework and GSJDataEncryptor.framework
 
 In appDelegate.m add method:
@@ -44,3 +44,6 @@ In your CoreDataModel, specify the following keys in Transformer Value Name:
 -For Date use GSJDateValueTransformer
 
 
+Authors
+=======
+GSJ: Gaurav, Seema and Jasvinder
