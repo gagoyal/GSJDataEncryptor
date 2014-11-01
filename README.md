@@ -37,11 +37,17 @@ In appDelegate.m add method:
 
 In your CoreDataModel, specify the following keys in Transformer Value Name:
 
--For String use GSJStringValueTransformer
+* For String use `GSJStringValueTransformer`
+* For Float/Int/Bool/Signed/Unsigned/Any NSNumber use `GSJNumberValueTransformer`
+* For Date use `GSJDateValueTransformer`
 
--For Float/Int/Bool/Signed/Unsigned/Any NSNumber use GSJNumberValueTransformer
 
--For Date use GSJDateValueTransformer
+
+Set the following options on your Entity attributes
+
+* Set `Attribute Type` to `Transformable`
+* Set `Name` to `NSStringEncryptionTransformer`
+ 
 
 
 Authors
