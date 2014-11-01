@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3AE3967919892F3400102D72 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3AE3967A19892F3400102D72 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				3AE3967D19892F8100102D72 /* ShellScript */,
+			);
+			dependencies = (
+				3AE3967F19892F9F00102D72 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework1;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3ABFD59E198933600044FF23 /* GSJDataEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0CE347197E9C9900510AFE /* GSJDataEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840EB06F198A17B400DC7EC8 /* GSJDateEncryptionTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 840EB06D198A17B400DC7EC8 /* GSJDateEncryptionTransformer.h */; };
+		840EB070198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB06E198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m */; };
+		840EB077198A699100DC7EC8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB076198A699100DC7EC8 /* Security.framework */; };
+		840EB079198A6A2B00DC7EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB078198A6A2B00DC7EC8 /* UIKit.framework */; };
+		EA0CE343197E9C9900510AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE342197E9C9900510AFE /* Foundation.framework */; };
+		EA0CE34A197E9C9900510AFE /* GSJDataEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE349197E9C9900510AFE /* GSJDataEncryptor.m */; };
+		EA0CE351197E9C9900510AFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE350197E9C9900510AFE /* XCTest.framework */; };
+		EA0CE352197E9C9900510AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE342197E9C9900510AFE /* Foundation.framework */; };
+		EA0CE35D197E9C9900510AFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0CE35B197E9C9900510AFE /* InfoPlist.strings */; };
+		EA0CE35F197E9C9900510AFE /* GSJDataEncryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE35E197E9C9900510AFE /* GSJDataEncryptorTests.m */; };
+		EA0CE38E197E9D3600510AFE /* GSJEncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE382197E9D3600510AFE /* GSJEncryptionTransformer.m */; };
+		EA0CE390197E9D3600510AFE /* GSJNumberEncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE386197E9D3600510AFE /* GSJNumberEncryptionTransformer.m */; };
+		EA0CE391197E9D3600510AFE /* GSJStringEncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE388197E9D3600510AFE /* GSJStringEncryptionTransformer.m */; };
+		EA0CE392197E9D3600510AFE /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE38A197E9D3600510AFE /* NSData+AES256.m */; };
+		EA0CE393197E9D3600510AFE /* DataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE38D197E9D3600510AFE /* DataGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AE3967E19892F9F00102D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0CE337197E9C9800510AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0CE33E197E9C9900510AFE;
+			remoteInfo = CMDataEncryptor;
+		};
+		840EB074198A696900DC7EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0CE337197E9C9800510AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AE3967919892F3400102D72;
+			remoteInfo = Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840EB06D198A17B400DC7EC8 /* GSJDateEncryptionTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSJDateEncryptionTransformer.h; sourceTree = "<group>"; };
+		840EB06E198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSJDateEncryptionTransformer.m; sourceTree = "<group>"; };
+		840EB076198A699100DC7EC8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		840EB078198A6A2B00DC7EC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA0CE33F197E9C9900510AFE /* libGSJDataEncryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSJDataEncryptor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0CE342197E9C9900510AFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0CE346197E9C9900510AFE /* GSJDataEncryptor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSJDataEncryptor-Prefix.pch"; sourceTree = "<group>"; };
+		EA0CE347197E9C9900510AFE /* GSJDataEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSJDataEncryptor.h; sourceTree = "<group>"; };
+		EA0CE349197E9C9900510AFE /* GSJDataEncryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSJDataEncryptor.m; sourceTree = "<group>"; };
+		EA0CE34F197E9C9900510AFE /* GSJDataEncryptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSJDataEncryptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0CE350197E9C9900510AFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA0CE353197E9C9900510AFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA0CE35A197E9C9900510AFE /* GSJDataEncryptorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSJDataEncryptorTests-Info.plist"; sourceTree = "<group>"; };
+		EA0CE35C197E9C9900510AFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0CE35E197E9C9900510AFE /* GSJDataEncryptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSJDataEncryptorTests.m; sourceTree = "<group>"; };
+		EA0CE381197E9D3600510AFE /* GSJEncryptionTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSJEncryptionTransformer.h; sourceTree = "<group>"; };
+		EA0CE382197E9D3600510AFE /* GSJEncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSJEncryptionTransformer.m; sourceTree = "<group>"; };
+		EA0CE385197E9D3600510AFE /* GSJNumberEncryptionTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSJNumberEncryptionTransformer.h; sourceTree = "<group>"; };
+		EA0CE386197E9D3600510AFE /* GSJNumberEncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSJNumberEncryptionTransformer.m; sourceTree = "<group>"; };
+		EA0CE387197E9D3600510AFE /* GSJStringEncryptionTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSJStringEncryptionTransformer.h; sourceTree = "<group>"; };
+		EA0CE388197E9D3600510AFE /* GSJStringEncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSJStringEncryptionTransformer.m; sourceTree = "<group>"; };
+		EA0CE389197E9D3600510AFE /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		EA0CE38A197E9D3600510AFE /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		EA0CE38C197E9D3600510AFE /* DataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGenerator.h; sourceTree = "<group>"; };
+		EA0CE38D197E9D3600510AFE /* DataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0CE33C197E9C9900510AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE343197E9C9900510AFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0CE34C197E9C9900510AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EB079198A6A2B00DC7EC8 /* UIKit.framework in Frameworks */,
+				840EB077198A699100DC7EC8 /* Security.framework in Frameworks */,
+				EA0CE351197E9C9900510AFE /* XCTest.framework in Frameworks */,
+				EA0CE352197E9C9900510AFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0CE336197E9C9800510AFE = {
+			isa = PBXGroup;
+			children = (
+				EA0CE37E197E9D3600510AFE /* GSJ */,
+				EA0CE344197E9C9900510AFE /* GSJDataEncryptor */,
+				EA0CE358197E9C9900510AFE /* GSJDataEncryptorTests */,
+				EA0CE341197E9C9900510AFE /* Frameworks */,
+				EA0CE340197E9C9900510AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0CE340197E9C9900510AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE33F197E9C9900510AFE /* libGSJDataEncryptor.a */,
+				EA0CE34F197E9C9900510AFE /* GSJDataEncryptorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0CE341197E9C9900510AFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840EB078198A6A2B00DC7EC8 /* UIKit.framework */,
+				840EB076198A699100DC7EC8 /* Security.framework */,
+				EA0CE342197E9C9900510AFE /* Foundation.framework */,
+				EA0CE350197E9C9900510AFE /* XCTest.framework */,
+				EA0CE353197E9C9900510AFE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0CE344197E9C9900510AFE /* GSJDataEncryptor */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE347197E9C9900510AFE /* GSJDataEncryptor.h */,
+				EA0CE349197E9C9900510AFE /* GSJDataEncryptor.m */,
+				EA0CE345197E9C9900510AFE /* Supporting Files */,
+			);
+			path = GSJDataEncryptor;
+			sourceTree = "<group>";
+		};
+		EA0CE345197E9C9900510AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE346197E9C9900510AFE /* GSJDataEncryptor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0CE358197E9C9900510AFE /* GSJDataEncryptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE35E197E9C9900510AFE /* GSJDataEncryptorTests.m */,
+				EA0CE359197E9C9900510AFE /* Supporting Files */,
+			);
+			path = GSJDataEncryptorTests;
+			sourceTree = "<group>";
+		};
+		EA0CE359197E9C9900510AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE35A197E9C9900510AFE /* GSJDataEncryptorTests-Info.plist */,
+				EA0CE35B197E9C9900510AFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0CE37E197E9D3600510AFE /* GSJ */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE37F197E9D3600510AFE /* Crypto */,
+				EA0CE38B197E9D3600510AFE /* Random Data */,
+			);
+			name = GSJ;
+			path = GSJDataEncryptor/GSJ;
+			sourceTree = "<group>";
+		};
+		EA0CE37F197E9D3600510AFE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE389197E9D3600510AFE /* NSData+AES256.h */,
+				EA0CE38A197E9D3600510AFE /* NSData+AES256.m */,
+				EA0CE380197E9D3600510AFE /* EncryptionTransformers */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		EA0CE380197E9D3600510AFE /* EncryptionTransformers */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE381197E9D3600510AFE /* GSJEncryptionTransformer.h */,
+				EA0CE382197E9D3600510AFE /* GSJEncryptionTransformer.m */,
+				EA0CE385197E9D3600510AFE /* GSJNumberEncryptionTransformer.h */,
+				EA0CE386197E9D3600510AFE /* GSJNumberEncryptionTransformer.m */,
+				840EB06D198A17B400DC7EC8 /* GSJDateEncryptionTransformer.h */,
+				840EB06E198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m */,
+				EA0CE387197E9D3600510AFE /* GSJStringEncryptionTransformer.h */,
+				EA0CE388197E9D3600510AFE /* GSJStringEncryptionTransformer.m */,
+			);
+			path = EncryptionTransformers;
+			sourceTree = "<group>";
+		};
+		EA0CE38B197E9D3600510AFE /* Random Data */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE38C197E9D3600510AFE /* DataGenerator.h */,
+				EA0CE38D197E9D3600510AFE /* DataGenerator.m */,
+			);
+			path = "Random Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3ABFD59D198933560044FF23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840EB06F198A17B400DC7EC8 /* GSJDateEncryptionTransformer.h in Headers */,
+				3ABFD59E198933600044FF23 /* GSJDataEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA0CE33E197E9C9900510AFE /* GSJDataEncryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0CE362197E9C9900510AFE /* Build configuration list for PBXNativeTarget "GSJDataEncryptor" */;
+			buildPhases = (
+				3ABFD59D198933560044FF23 /* Headers */,
+				EA0CE33B197E9C9900510AFE /* Sources */,
+				EA0CE33C197E9C9900510AFE /* Frameworks */,
+				3AE396801989306600102D72 /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSJDataEncryptor;
+			productName = CMDataEncryptor;
+			productReference = EA0CE33F197E9C9900510AFE /* libGSJDataEncryptor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA0CE34E197E9C9900510AFE /* GSJDataEncryptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0CE365197E9C9900510AFE /* Build configuration list for PBXNativeTarget "GSJDataEncryptorTests" */;
+			buildPhases = (
+				EA0CE34B197E9C9900510AFE /* Sources */,
+				EA0CE34C197E9C9900510AFE /* Frameworks */,
+				EA0CE34D197E9C9900510AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840EB075198A696900DC7EC8 /* PBXTargetDependency */,
+			);
+			name = GSJDataEncryptorTests;
+			productName = CMDataEncryptorTests;
+			productReference = EA0CE34F197E9C9900510AFE /* GSJDataEncryptorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0CE337197E9C9800510AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CanvasM;
+				TargetAttributes = {
+					EA0CE34E197E9C9900510AFE = {
+						TestTargetID = 3AE3967919892F3400102D72;
+					};
+				};
+			};
+			buildConfigurationList = EA0CE33A197E9C9800510AFE /* Build configuration list for PBXProject "GSJDataEncryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0CE336197E9C9800510AFE;
+			productRefGroup = EA0CE340197E9C9900510AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0CE33E197E9C9900510AFE /* GSJDataEncryptor */,
+				EA0CE34E197E9C9900510AFE /* GSJDataEncryptorTests */,
+				3AE3967919892F3400102D72 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0CE34D197E9C9900510AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE35D197E9C9900510AFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE3967D19892F8100102D72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# For details refer to: https://github.com/jverkoey/iOS-Framework#walkthrough\nset -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=GSJDataEncryptor\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
+		};
+		3AE396801989306600102D72 /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# For details refer to: https://github.com/jverkoey/iOS-Framework#walkthrough\nset -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0CE33B197E9C9900510AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE38E197E9D3600510AFE /* GSJEncryptionTransformer.m in Sources */,
+				EA0CE390197E9D3600510AFE /* GSJNumberEncryptionTransformer.m in Sources */,
+				EA0CE393197E9D3600510AFE /* DataGenerator.m in Sources */,
+				EA0CE391197E9D3600510AFE /* GSJStringEncryptionTransformer.m in Sources */,
+				EA0CE392197E9D3600510AFE /* NSData+AES256.m in Sources */,
+				EA0CE34A197E9C9900510AFE /* GSJDataEncryptor.m in Sources */,
+				840EB070198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0CE34B197E9C9900510AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE35F197E9C9900510AFE /* GSJDataEncryptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AE3967F19892F9F00102D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0CE33E197E9C9900510AFE /* GSJDataEncryptor */;
+			targetProxy = 3AE3967E19892F9F00102D72 /* PBXContainerItemProxy */;
+		};
+		840EB075198A696900DC7EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AE3967919892F3400102D72 /* Framework */;
+			targetProxy = 840EB074198A696900DC7EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0CE35B197E9C9900510AFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0CE35C197E9C9900510AFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE3967B19892F3400102D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AE3967C19892F3400102D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA0CE360197E9C9900510AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRELINK_FLAGS = "-all_load";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		EA0CE361197E9C9900510AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRELINK_FLAGS = "-all_load";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0CE363197E9C9900510AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GSJDataEncryptor;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		EA0CE364197E9C9900510AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GSJDataEncryptor;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		EA0CE366197E9C9900510AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GSJDataEncryptorTests/GSJDataEncryptorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-framework",
+					GSJDataEncryptor,
+				);
+				PRODUCT_NAME = GSJDataEncryptorTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA0CE367197E9C9900510AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
+				INFOPLIST_FILE = "GSJDataEncryptorTests/GSJDataEncryptorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-framework",
+					GSJDataEncryptor,
+				);
+				PRODUCT_NAME = GSJDataEncryptorTests;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE3967A19892F3400102D72 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE3967B19892F3400102D72 /* Debug */,
+				3AE3967C19892F3400102D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0CE33A197E9C9800510AFE /* Build configuration list for PBXProject "GSJDataEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0CE360197E9C9900510AFE /* Debug */,
+				EA0CE361197E9C9900510AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0CE362197E9C9900510AFE /* Build configuration list for PBXNativeTarget "GSJDataEncryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0CE363197E9C9900510AFE /* Debug */,
+				EA0CE364197E9C9900510AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0CE365197E9C9900510AFE /* Build configuration list for PBXNativeTarget "GSJDataEncryptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0CE366197E9C9900510AFE /* Debug */,
+				EA0CE367197E9C9900510AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0CE337197E9C9800510AFE /* Project object */;
+}
