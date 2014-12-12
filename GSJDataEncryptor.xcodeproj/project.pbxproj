@@ -27,6 +27,7 @@
 		840EB070198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 840EB06E198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m */; };
 		840EB077198A699100DC7EC8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB076198A699100DC7EC8 /* Security.framework */; };
 		840EB079198A6A2B00DC7EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840EB078198A6A2B00DC7EC8 /* UIKit.framework */; };
+		84DCAE751A3B1CB700995565 /* TestPlistFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DCAE741A3B1CB700995565 /* TestPlistFile.plist */; };
 		EA0CE343197E9C9900510AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE342197E9C9900510AFE /* Foundation.framework */; };
 		EA0CE34A197E9C9900510AFE /* GSJDataEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE349197E9C9900510AFE /* GSJDataEncryptor.m */; };
 		EA0CE351197E9C9900510AFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE350197E9C9900510AFE /* XCTest.framework */; };
@@ -62,6 +63,7 @@
 		840EB06E198A17B400DC7EC8 /* GSJDateEncryptionTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSJDateEncryptionTransformer.m; sourceTree = "<group>"; };
 		840EB076198A699100DC7EC8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		840EB078198A6A2B00DC7EC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DCAE741A3B1CB700995565 /* TestPlistFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestPlistFile.plist; sourceTree = "<group>"; };
 		EA0CE33F197E9C9900510AFE /* libGSJDataEncryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSJDataEncryptor.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0CE342197E9C9900510AFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA0CE346197E9C9900510AFE /* GSJDataEncryptor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSJDataEncryptor-Prefix.pch"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		EA0CE359197E9C9900510AFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84DCAE741A3B1CB700995565 /* TestPlistFile.plist */,
 				EA0CE35A197E9C9900510AFE /* GSJDataEncryptorTests-Info.plist */,
 				EA0CE35B197E9C9900510AFE /* InfoPlist.strings */,
 			);
@@ -277,7 +280,7 @@
 		EA0CE337197E9C9800510AFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = CanvasM;
 				TargetAttributes = {
 					EA0CE34E197E9C9900510AFE = {
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0CE35D197E9C9900510AFE /* InfoPlist.strings in Resources */,
+				84DCAE751A3B1CB700995565 /* TestPlistFile.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,7 @@ const NSUInteger kPBKDFRounds = 512;
 // Borrowed some code from http://robnapier.net/aes-commoncrypto/
 
 + (NSData *)AESKeyForPassword:(NSString *)password
-    salt:(NSData *)salt {
+                         salt:(NSData *)salt {
     NSMutableData *
     derivedKey = [NSMutableData dataWithLength:kAlgorithmKeySize];
 
@@ -46,9 +46,9 @@ const NSUInteger kPBKDFRounds = 512;
 }
 
 - (NSData *)encryptedDataWithPassword:(NSString *)password
-    iv:(NSData **)iv
-    salt:(NSData **)salt
-    error:(NSError **)error {
+                                   iv:(NSData **)iv
+                                 salt:(NSData **)salt
+                                error:(NSError **)error {
     NSAssert(iv, @"IV must not be NULL");
     NSAssert(salt, @"salt must not be NULL");
 
@@ -97,6 +97,7 @@ const NSUInteger kPBKDFRounds = 512;
                                          code:result
                                      userInfo:nil];
         }
+
         return nil;
     }
 
@@ -104,9 +105,9 @@ const NSUInteger kPBKDFRounds = 512;
 }
 
 - (NSData *)decryptedDataWithPassword:(NSString *)password
-    iv:(NSData *)iv
-    salt:(NSData *)salt
-    error:(NSError **)error {
+                                   iv:(NSData *)iv
+                                 salt:(NSData *)salt
+                                error:(NSError **)error {
     NSData *key = [NSData AESKeyForPassword:password salt:salt];
 
     size_t outLength;
@@ -136,6 +137,7 @@ const NSUInteger kPBKDFRounds = 512;
                                      code:result
                                  userInfo:nil];
             }
+
             return nil;
         }
     }

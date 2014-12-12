@@ -17,10 +17,10 @@
  }
 
  In your CoreDataModel, specify the following keys in Transformer Value Name:
- -For String                                        : GSJStringValueTransformer
- -For Float/Int/Bool/Signed/Unsigned/Any NSNumber   : GSJNumberValueTransformer
- -For Date                                          : GSJDateValueTransformer
-
+ -For NSString                                        : GSJStringValueTransformer
+ -For NSNumber (Float/Int/Bool/Signed/Unsigned/Any)   : GSJNumberValueTransformer
+ -For NSDate                                          : GSJDateValueTransformer
+ -For NSData                                          : GSJDataValueTransformer
  **/
 
 #import <Foundation/Foundation.h>
@@ -28,9 +28,27 @@
 extern NSString *const GSJStringValueTransformer;
 extern NSString *const GSJNumberValueTransformer;
 extern NSString *const GSJDateValueTransformer;
+extern NSString *const GSJDataValueTransformer;
 
 @interface GSJDataEncryptor : NSObject
 
+//Required to set a password.
 + (void)setupEncryptorWithPassword:(NSString *)password;
+
+//Helper methods for standalone encryption/decryption
++ (NSData *)encryptString:(NSString *)aString;
++ (NSString *)decryptedStringFromData:(NSData *)aData;
+
++ (NSData *)encryptNumber:(NSNumber *)aNumber;
++ (NSNumber *)decryptedNumberFromData:(NSData *)aData;
+
++ (NSData *)encryptDate:(NSDate *)aDate;
++ (NSDate *)decryptedDateFromData:(NSData *)aData;
+
++ (NSData *)encryptData:(NSData *)aData;
++ (NSData *)decryptedDataFromData:(NSData *)aData;
+
++ (NSString *)encryptFileAtPath:(NSString *)filePath shouldOverwriteFile:(BOOL)flag;
++ (NSString *)decryptFileAtPath:(NSString *)filePath shouldOverwriteFile:(BOOL)flag;
 
 @end

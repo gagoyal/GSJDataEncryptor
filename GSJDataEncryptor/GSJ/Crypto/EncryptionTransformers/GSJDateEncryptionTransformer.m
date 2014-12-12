@@ -1,5 +1,5 @@
 //
-//  NSStringEncryptionTransformer.m
+//  GSJDateEncryptionTransformer.m
 //  GSJDataEncryptor
 //
 //  Created by Gaurav, Seema and Jasvinder on 7/5/14.
@@ -20,6 +20,7 @@
 
 - (NSDate *)reverseTransformedValue:(NSData *)data {
     if (nil == data) return nil;
+
     NSNumber *transformedValue = [super reverseTransformedValue:data];
     NSDate *finalValue = [NSDate dateWithTimeIntervalSinceReferenceDate:[transformedValue doubleValue]];
 

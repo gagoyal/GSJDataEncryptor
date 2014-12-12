@@ -23,7 +23,7 @@
 
 + (NSString *)createRandomStringOfLength:(int)len {
     NSMutableString *randomString = [NSMutableString stringWithCapacity:len];
-    for (int i = 0; i<len; i++) {
+    for (int i = 0; i < len; i++) {
         [randomString appendFormat:@"%C", [[DataGenerator shuffleSetWithSet:ALL_CHARACTERS] characterAtIndex:arc4random_uniform(ALL_CHARACTERS_LENGTH)]];
     }
     return randomString;

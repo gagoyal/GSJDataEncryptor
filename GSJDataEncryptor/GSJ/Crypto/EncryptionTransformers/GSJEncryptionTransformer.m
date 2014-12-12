@@ -1,5 +1,5 @@
 //
-//  EncryptionTransformer.m
+//  GSJEncryptionTransformer.m
 //  GSJDataEncryptor
 //
 //  Created by Gaurav, Seema and Jasvinder on 7/5/14.
@@ -7,6 +7,7 @@
 //
 
 #import "GSJEncryptionTransformer.h"
+#import "NSData+AES256.h"
 
 @implementation GSJEncryptionTransformer
 
@@ -15,6 +16,7 @@
     if (self) {
         _key = @"JasvinderSeemaGaurav";
     }
+
     return self;
 }
 
