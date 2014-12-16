@@ -15,10 +15,9 @@ GSJDataEncryptor is an Objective C data encryption framework. The project compil
 Link your target with Security.framework and GSJDataEncryptor.framework
 
 In appDelegate.m add method:
-
-`+ (void) initialize {`
-    `[GSJDataEncryptor setupEncryptorWithPassword:@"YourPassword"];`
-`}`
+    `+ (void) initialize {`
+        `[GSJDataEncryptor setupEncryptorWithPassword:@"YourPassword"];`
+    `}`
 
 In your CoreDataModel, specify the following keys in Transformer Value Name:
 - For String use `GSJStringValueTransformer`
