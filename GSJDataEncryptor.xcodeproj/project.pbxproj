@@ -480,6 +480,11 @@
 		EA0CE363197E9C9900510AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+					armv7s,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
 				GENERATE_MASTER_OBJECT_FILE = YES;
@@ -493,6 +498,11 @@
 		EA0CE364197E9C9900510AFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+					armv7s,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GSJDataEncryptor/GSJDataEncryptor-Prefix.pch";
 				GENERATE_MASTER_OBJECT_FILE = YES;
