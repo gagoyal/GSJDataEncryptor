@@ -32,4 +32,4 @@ Set the following options on your Entity attributes
 For example set `Name` to `GSJStringValueTransformer`
  
 ### Authors
-GSJ: Gaurav, Seema and Jasvinder
+GSJ: Gaurav, Seema and Jasvinder.
