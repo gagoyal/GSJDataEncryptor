@@ -99,7 +99,7 @@
 }
 
 - (void)testFiles {
-    NSString *filePath = [[[NSBundle bundleForClass:[self class]] bundlePath] stringByAppendingPathComponent:@"TestPlistFile.plist"];
+    NSString *filePath = [[[NSBundle bundleForClass:[self class]] bundlePath] stringByAppendingPathComponent:@"Info.plist"];
 
     NSString *copyFilePath = [[NSString stringWithFormat:@"%@_Copy", [filePath stringByDeletingPathExtension]] stringByAppendingPathExtension:[filePath pathExtension]];
 

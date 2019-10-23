@@ -6,6 +6,16 @@
 //  Copyright (c) 2014 GSJ. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
+//! Project version number for GSJDataEncryptor.
+FOUNDATION_EXPORT double GSJDataEncryptorVersionNumber;
+
+//! Project version string for GSJDataEncryptor.
+FOUNDATION_EXPORT const unsigned char GSJDataEncryptorVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <GSJDataEncryptor/PublicHeader.h>
+
 /** Documentation
 
  Link your target with security.framework
